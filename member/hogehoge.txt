@@ -1,0 +1,3 @@
+名前：hogehoge
+グループ：hogehogeグループ
+備考：なし
