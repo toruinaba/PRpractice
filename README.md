@@ -86,7 +86,7 @@ GUIでのGitクライアントアプリについては下記あたりが良い�
 まずgithubからcloneしてください。
 
 ```shell
-git clone http://172.16.116.6/inaba/PRpractice
+git clone https://github.com/toruinaba/PRpractice
 ```
 
 > コマンド実行の場合、今いる階層にリポジトリがクローンされます。
@@ -141,8 +141,8 @@ github上のリポジトリにプッシュしましょう。クローンして�
 
 ```shell
 git remote -v
-# origin http://172.16.116.6/inaba/PRpractice.git (fetch)
-# origin http://172.16.116.6/inaba/PRpractice.git (push)
+# origin https://github.com/toruinaba/PRpractice.git (fetch)
+# origin https://github.com/toruinaba/PRpractice.git (push)
 ```
 
 プッシュは下記で行います。
@@ -153,7 +153,7 @@ git push origin hogehoge
 
 #### 6. githubのリポジトリでプルリクエストを作成
 
-[リポジトリ](http://172.16.116.6/inaba/PRpractice)にアクセスすると下図の黄色い四角のようにプルリクエストが作成できるようになっています。
+[リポジトリ](https://github.com/toruinaba/PRpractice)にアクセスすると下図の黄色い四角のようにプルリクエストが作成できるようになっています。
 
 ![img](./img/PR_button.png)
 
